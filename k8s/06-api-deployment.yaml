@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/REEMPLAZAR_USUARIO/REEMPLAZAR_REPOSITORIO:sha-REEMPLAZAR_COMMIT
+          image: ghcr.io/michelle-arg/practica-guiada-clase-21:sha-89d81340926a857d97ee66a1abbc17942a1139bc          
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
